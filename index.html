@@ -13,16 +13,11 @@
 
   <style>
 
-    body {
-      font-family: Verdana, sans-serif;
-background:
-linear-gradient(
-180deg,
-#f5f7fa 0%,
-#e8eef5 100%
-);
-
-.logo-Cib {
+body {
+  font-family: Verdana, sans-serif;
+  background: #FFE8CC;
+}
+.logo-Koni {
 
   position: fixed;
 
@@ -34,15 +29,18 @@ linear-gradient(
   z-index: 999999;
 
 }
-    .container {
+.container{
 
-  max-width: 1400px;
-  margin: auto;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  max-width:1200px;
+  margin:30px auto;
 
-  padding: 50px;
+  background:white;
+
+  border-radius:30px;
+
+  padding:70px;
+
+  box-shadow:0 20px 60px rgba(0,0,0,.10);
 
 }
 
@@ -216,55 +214,93 @@ h1 {
 
 <div style="
   text-align:center;
-  padding:5px 40px 30px;
+  padding:20px 40px 40px;
 ">
     <img
-      src="Logo Cib.png"
+      src="Logo Koni.png"
       style="
-        width:200px;
-        margin-bottom:30px;
+        width:260px;
+        margin-bottom:15px;
       "
     >
 
-    <h1 style="
-      font-size:52px;
-      color:#1f3c5c;
-      margin-bottom:25px;
-    ">
+ <h1 style="
+  font-size:68px;
+  font-weight:700;
+  color:#1f3c5c;
+  letter-spacing:-2px;
+  line-height:1.1;
+  margin-bottom:35px;
+">
       Escola Operacional 2026
     </h1>
+<div style="
+max-width:900px;
+margin:40px auto 50px;
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+text-align:center;
+">
 
     <p style="
-      font-size:24px;
-      line-height:1.8;
-      max-width:900px;
-      margin:auto;
-      color:#555;
+    margin:0;
+    font-size:22px;
+    color:#666;
+    line-height:1.7;
     ">
-
-      Bem-vindo(a) à experiência da
-      Escola Operacional China in Box 🍜
-
-      <br><br>
-
-Uma experiência criada para formar multiplicadores e fortalecer a excelência dos restaurantes China in Box.
-Inscreva-se para participar do treinamento oficial.
+        Capacitando colaboradores para levar excelência operacional às unidades Koni.
     </p>
 
-    <button
-      onclick="iniciarFormulario()"
-      style="
-        margin-top:50px;
-        background:#2e7d32;
-        color:white;
-        border:none;
-        padding:20px 50px;
-        border-radius:15px;
-        font-size:22px;
-        font-weight:bold;
-        cursor:pointer;
-      "
-    >
+    <hr style="
+    border:none;
+    border-top:1px solid #ececec;
+    margin:30px 0;
+    ">
+
+    <p style="
+    margin:0;
+    font-size:28px;
+    color:#1f3c5c;
+    font-weight:600;
+    ">
+        🍜 Bem-vindo(a) à experiência da Escola Operacional Koni.
+    </p>
+
+    <hr style="
+    border:none;
+    border-top:1px solid #ececec;
+    margin:30px 0;
+    ">
+
+    <p style="
+    margin:0;
+    font-size:22px;
+    color:#555;
+    line-height:1.8;
+    ">
+        Uma experiência criada para formar multiplicadores e fortalecer a excelência dos restaurantes Koni. Inscreva-se para participar do treinamento oficial.
+    </p>
+
+</div>
+
+ <button
+  onclick="iniciarFormulario()"
+  style="
+    margin-top:50px;
+    background:#E86A17;
+    color:white;
+    border:none;
+    padding:20px 50px;
+    border-radius:15px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 10px 30px rgba(232,106,23,.30);
+    transition:.3s;
+  "
+>
       Iniciar inscrição
     </button>
 
@@ -272,17 +308,52 @@ Inscreva-se para participar do treinamento oficial.
 
 </div>
 
-  <div id="termo1" style="display:none;">
+<div id="termo1" style="display:none;">
 
-    <h1>Termo de ciência do uso de dados</h1>
+  <div style="text-align:center;">
 
-    <div class="termo-box">
+    <h1 style="
+      display:inline-block;
+      background:white;
+      padding:20px 40px;
+      border-radius:20px;
+      box-shadow:0 8px 20px rgba(0,0,0,.08);
+    ">
+      Termo de ciência do uso de dados
+    </h1>
 
-      <p>
-        Esse formulário confirma sua inscrição para o evento.
-        As informações coletadas serão utilizadas para cadastro,
-        gestão e organização do evento.
-      </p>
+<div style="
+max-width:900px;
+margin:30px auto;
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+">
+
+<h3 style="
+margin:0 0 15px;
+background:none;
+border:none;
+padding:0;
+font-size:24px;
+color:#1f3c5c;
+">
+ℹ️ Finalidade do formulário
+</h3>
+
+<p style="
+margin:0;
+font-size:20px;
+line-height:1.8;
+color:#555;
+">
+Esse formulário confirma sua inscrição para o evento.
+As informações coletadas serão utilizadas para cadastro,
+gestão e organização do evento.
+</p>
+
+</div>
 
       <div class="termo-buttons">
 
@@ -302,15 +373,36 @@ Inscreva-se para participar do treinamento oficial.
 
   <div id="termo2" style="display:none;">
 
-    <h1>Regras do evento</h1>
+    <h1>
+<p style="
+font-size:22px;
+color:#666;
+text-align:center;
+margin-top:-10px;
+margin-bottom:35px;
+">
+Leia atentamente as condições para participação no evento.
+</p>
 
     <div class="termo-box">
 
-      <p>
-        A participação no evento implica concordância com as regras
-        de hospedagem, alimentação, deslocamento e participação.
-      </p>
+<h3 style="
+margin-top:0;
+margin-bottom:20px;
+font-size:24px;
+color:#1f3c5c;
+">
+📋 Condições de participação
+</h3>
 
+<p style="
+font-size:20px;
+line-height:1.8;
+color:#555;
+margin:0;
+">
+A participação no evento implica concordância com as regras de hospedagem, alimentação e deslocamento.
+</p>
       <div class="termo-buttons">
 
         <button class="btn btn-aceito" onclick="abrirFormulario()">
@@ -341,7 +433,7 @@ Inscreva-se para participar do treinamento oficial.
     font-size:32px;
     margin-bottom:25px;
   ">
-    🍜 Escola Operacional China in Box 2026
+    🍜 Escola Operacional Koni 2026
   </h2>
 
   <div style="
@@ -356,8 +448,8 @@ Inscreva-se para participar do treinamento oficial.
       line-height:1.8;
       margin:0;
     ">
-      Participe da Escola China In Box cozinha e venha aprender os novos
-      pratos da campanha Festival Asiático que entrarão no cardápio.  
+      Participe da Escola Koni cozinha e venha aprender os novos
+      pratos da campanha Festival de pokes que entrarão no cardápio.  
   </p>
 
   </div>
@@ -465,7 +557,7 @@ Inscreva-se para participar do treinamento oficial.
       margin:0;
       line-height:1.6;
     ">
-       Inscrições abertas até 22 de junho<br>
+       Inscrições abertas até 22 de julho<br>
        Vagas limitadas: 30 participantes
     </p>
 
@@ -505,7 +597,7 @@ oninput="this.value=this.value.replace(/\D/g,'')"
   oninput="this.value=this.value.replace(/\D/g,'')"
 >
 
-<input type="text" id="marca" value="CHINA IN BOX" readonly>
+<input type="text" id="marca" value="KONI" readonly>
 
         <input
   list="listaRestaurantes"
@@ -516,646 +608,159 @@ oninput="this.value=this.value.replace(/\D/g,'')"
 <datalist id="listaRestaurantes">
 
 <option
-  value="CHINA IN BOX RUA BROOKLIN"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI AGUAS CLARAS"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA CHACARA SANTO ANTONIO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI POSTO ALTANA"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA GUARULHOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI ASA NORTE"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA ITAIM"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI ASA SUL"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA JABAQUARA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI BOULEVARD NORTE"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA MOGI DAS CRUZES"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI BRASILIA SHOPPING"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA OSASCO II"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI CONJUNTO NACIONAL DF"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA PENHA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI GUARA"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA PRAIA GRANDE"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI LAGO SUL MM"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA SANTOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI NOROESTE"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA SAO MIGUEL"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI NOVO SUDOESTE"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA SUZANO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI TAGUATINGA PISTÃO SUL"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA TATUAPE"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI SHOPPING QUE GAMA"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA VILA MARIA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI TAGUATINGA SHOPPING"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX RUA VILA MASCOTE"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI GOIÂNIA"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX SHOPPING BOSQUE MAIA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI DOURADOS MS"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX SHOPPING CENTRAL PLAZA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI SINOP MT"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CHINA IN BOX SHOPPING TABOAO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI COLINAS"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - ACLIMAÇÃO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI CONTINENTAL OSASCO DK"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - ALPHAVILLE"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI DIADEMA"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - BIXIGA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI POMPÉIA MM"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - BUTANTÃ"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI RIBEIRAO PRETO"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - CAMPO LIMPO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI RIBEIRAO SHOPPING"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - CARAPICUÍBA PLAZA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI DK SANTANA SHOPPING"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - CEASA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
+  value="KONI VALE SUL"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 <option
-  value="CIB - DIADEMA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - FREGUESIA DO Ó"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - GRANJA VIANA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - GUARULHOS II"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - HIGIENÓPOLIS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - ITAQUERA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - JANDIRA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - JARDINS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - JUNDIAÍ"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - LAPA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - LIMEIRA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - MAUÁ"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - MOEMA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - MOOCA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - MORUMBI"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - OSASCO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - PIRACICABA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - POMPÉIA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - PQ. SÃO DOMINGOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - PQ. SÃO LUCAS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - RIBEIRÃO PRETO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - RIO PEQUENO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SANTANA DE PARNAÍBA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SANTO ANDRÉ"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO BERNARDO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO CAETANO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO CARLOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO JOSÉ DO RIO PRETO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO JOSÉ DOS CAMPOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - SÃO MATEUS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - TERESINA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - SOROCABA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - TAUBATÉ"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - VALINHOS"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - VÁRZEA PAULISTA SHOPPING MM"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - VILA CARRÃO"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB - VILA MARIANA"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-<option
-  value="CIB SANTANA - MANDAQUI"
-  data-turma="T2"
-  data-data="28/07 e 29/07">
-</option>
-
-
-<option
-  value="CIB - AGUAS CLARAS"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - ASA NORTE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - ASA SUL II"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CAMPO GRANDE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CUIABA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - GOIANIA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - GUARA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - LAGO NORTE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - LAGO SUL"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - SAMAMBAIA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - SINOP"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BOA VISTA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CACHOEIRINHA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CHAPADA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - MACAPA MM"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - MANAUARA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - NAZARÉ"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - PORTO VELHO"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - RIO BRANCO MM"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CHINA IN BOX RUA GUARUJA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - AMERICANA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - ARARAQUARA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BAURU"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CAMBUÍ"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - INDAIATUBA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - PARQUE PRADO SP"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CHINA IN BOX RUA CAXIAS DO SUL"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CHINA IN BOX RUA JARDIM BOTANICO"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CHINA IN BOX RUA ZONA NORTE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CHINA IN BOX RUA ZONA SUL"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - AGUA VERDE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - AHU"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - ALTO DA XV"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BALNEARIO CAMBORIU"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BANCÁRIOS"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BIGORRILHO"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - BLUMENAU"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - CENTRO"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - FLORIPA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - ITAJAI"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - JOINVILLE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - MARINGÁ"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - PONTA GROSSA"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
-</option>
-
-<option
-  value="CIB - SAO JOSE"
-  data-turma="T3"
-  data-data="30/07 e 31/07">
+  value="KONI BARUERI DK"
+  data-turma="T4"
+  data-data="25/08 e 26/08">
 </option>
 
 </datalist>
@@ -1444,7 +1049,7 @@ await fetch(url, {
       ">
 
         <img
-          src="Logo Cib.png"
+          src="Logo Koni.png"
           style="width:300px; margin-bottom:5px;"
         >
 
